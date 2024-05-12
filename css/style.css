@@ -1,3 +1,31 @@
+.wrapper {
+    width: fit-content;
+    min-width: 612px;
+    margin: 0 auto;
+}
+
+nav {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+.logo {
+    height: 42px;
+}
+
 .form-wrapper {
     position: relative;
     width: fit-content;

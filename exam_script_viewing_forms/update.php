@@ -1,5 +1,6 @@
 <?php
 
+include("../helpers/auth.php");
 include("../helpers/dbconn.php");
 
 $id = $_GET['id'];
@@ -40,6 +41,6 @@ where id = $id";
 
 mysqli_query($conn, $insert_q);
 
-header("Location: /mnu/exam_script_viewing_forms")
+header("Location: /mnu/exam_script_viewing_forms?username=$username")
 
 ?>

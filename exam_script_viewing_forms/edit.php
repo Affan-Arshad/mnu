@@ -1,7 +1,8 @@
 <?php
 
-include("../helpers/dbconn.php");
 include("../layout/header.php");
+include("../helpers/auth.php");
+include("../helpers/dbconn.php");
 
 $id = $_GET['id'];
 
@@ -13,7 +14,7 @@ $form = mysqli_fetch_assoc($result);
 
 <div class="form-wrapper">
     <img class="form" src="../assets/form.png" >
-    <form action="update.php?id=<?php echo $form['id']; ?>" method="POST">
+    <form action="update.php?id=<?php echo $form['id']; ?>&username=<?php echo $username; ?>" method="POST">
         <input type="text" name="fullname_and_address" value="<?php echo $form['fullname_and_address']; ?>">
         <input type="text" name="student_number" value="<?php echo $form['student_number']; ?>">
         <input type="text" name="national_id_no" value="<?php echo $form['national_id_no']; ?>">
@@ -29,7 +30,7 @@ $form = mysqli_fetch_assoc($result);
         <input type="text" name="lecturer" value="<?php echo $form['lecturer']; ?>">
         <input required type="date" name="date" value="<?php echo $form['date']; ?>">
         <input required type="checkbox" name="consent" value="1" <?php echo $form['consent'] ? 'checked' : ''; ?>>
-        <button class="cancel" type="button"><a href="/mnu/exam_script_viewing_forms">Cancel</a></button>
+        <button class="cancel" type="button"><a href="/mnu/exam_script_viewing_forms?username=<?php echo $username; ?>">Cancel</a></button>
         <button>Submit</button>
     </form>
 

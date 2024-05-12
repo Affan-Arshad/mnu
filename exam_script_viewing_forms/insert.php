@@ -1,5 +1,6 @@
 <?php
 
+include("../helpers/auth.php");
 include("../helpers/dbconn.php");
 
 $fullname_and_address = $_POST['fullname_and_address'];
@@ -54,6 +55,6 @@ $insert_q = "Insert into exam_script_viewing_forms (
 
 mysqli_query($conn, $insert_q);
 
-header("Location: /mnu/exam_script_viewing_forms")
+header("Location: /mnu/exam_script_viewing_forms?username=$username")
 
 ?>
