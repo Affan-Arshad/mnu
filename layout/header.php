@@ -26,7 +26,7 @@
                     <li><a href="/mnu?username=<?php echo $username; ?>"><img class="logo" src="/mnu/assets/logo.png"></a></li>
                     <li><a href="/mnu?username=<?php echo $username; ?>">Home</a></li>
                     <li><a href="/mnu/exam_script_viewing_forms?username=<?php echo $username; ?>">Exam Script Viewing</a></li>
-                    <li><a href="/mnu">Logout</a></li>
+                    <li><a href="/mnu"><?php echo $username; ?> (Logout)</a></li>
                 <?php } ?>
             </ul>
         </nav>
