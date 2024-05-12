@@ -6,7 +6,7 @@ include("../layout/header.php");
 
 <div class="form-wrapper">
     <img class="form" src="../assets/form.png" >
-    <form action="store.php" method="POST">
+    <form action="insert.php" method="POST">
         <input type="text" name="fullname_and_address" value="test">
         <input type="text" name="student_number" value="test">
         <input type="text" name="national_id_no" value="test">
