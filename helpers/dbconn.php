@@ -6,7 +6,7 @@ try {
         'root',         // username
         '',             // password
         'affan_db',     // database
-        '3333'          // port
+        '3306'          // port
     );
 
     echo "<script>console.log('DB Connection Successful')</script>";

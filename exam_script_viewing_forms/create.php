@@ -7,7 +7,7 @@ include("../helpers/auth.php");
 
 <div class="form-wrapper">
     <img class="form" src="../assets/form.png" >
-    <form action="insert.php?username=<?php echo $username; ?>" method="POST">
+    <form action="store.php?username=<?php echo $username; ?>" method="POST">
         <input required type="text" name="fullname_and_address" >
         <input required type="text" name="student_number" >
         <input required type="text" name="national_id_no" >
