@@ -1,0 +1,40 @@
+.input-line {
+    margin-bottom: 20px;
+}
+.input-line label:first-of-type {
+    width: 100px;
+    display: inline-block;
+}
+
+table thead {
+    background-color: #636567;
+    color: white;
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: #DBD3D1;
+    color: #333; /* own css for visibility */
+}
+
+html {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+}
+
+table {
+    background-color: #333333;
+    width: 100%;
+}
+
+
+nav a {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}

@@ -1,0 +1,6 @@
+{"name":"Affan","email":"affan@example.com","password":"asdf","gender":"male","hobbies":["gaming","sleeping"],"age":"21"}
+{"name":"Ibrahim","email":"ibrahim@example.com","password":"1234","gender":"male","hobbies":["gaming","coding"],"age":"22"}
+{"name":"Mohamed","email":"mohamed@example.com","password":"15948","gender":"male","hobbies":["sleeping","coding"],"age":"23"}
+{"name":"Fathimath","email":"fathimath@example.com","password":"798456","gender":"female","hobbies":["gaming","sleeping","coding"],"age":"26"}
+{"name":"Ismail","email":"ismail@example.com","password":"zxcv","gender":"male","hobbies":["gaming","sleeping","coding"],"age":"23"}
+{"name":"anwar","email":"anwar@example.com","password":"asdfqwer","gender":"male","hobbies":["gaming"],"age":"22"}
