@@ -4,4 +4,8 @@ echo "<pre>";
 print_r($_POST);
 echo "</pre>";
 
-header('Location: .');
+if(!isset($_POST['userRegistration'])) {
+    header('Location: .');
+}
+
+
